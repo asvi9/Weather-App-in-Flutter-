@@ -29,23 +29,6 @@ Light & Dark Mode: Customize the appearance to suit your preference.
     The app uses the API Ninjas Weather API to fetch real-time weather data.
     Endpoint: API Ninjas Weather API
 
-# Required Parameter:
-
-apiKey (string) - ' '.
-
-To get your API key, visit API Ninjas and sign up.
-
-# API Configuration
-
-    -- Check the configuration in lib/api/api_ninjas_weather_api.dart:
-
-class ApiNinjasWeatherAPI {
-String apiKey = '';
-
-String apiUrl(double lat, double lon) {
-return 'https://api.api-ninjas.com/v1/weather?lat=$lat&lon=$lon&appid=$apiKey';
-}
-}
 
 # 🚀 Getting Started
 
