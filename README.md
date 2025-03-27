@@ -31,7 +31,7 @@ Light & Dark Mode: Customize the appearance to suit your preference.
 
 # Required Parameter:
 
-apiKey (string) - .
+apiKey (string) - ' '.
 
 To get your API key, visit API Ninjas and sign up.
 
@@ -61,7 +61,6 @@ return 'https://api.api-ninjas.com/v1/weather?lat=$lat&lon=$lon&appid=$apiKey';
 
    -- flutter pub get
 
-# Configure your API key in lib/api/api_ninjas_weather_api.dart.
 
 # Run the app:
 
@@ -75,5 +74,3 @@ return 'https://api.api-ninjas.com/v1/weather?lat=$lat&lon=$lon&appid=$apiKey';
 
   For iOS development, use Xcode on macOS.
 
-# apk file path: 
-     StudioProjects\weather\build\app\outputs\flutter-apk\app-release.apk 
